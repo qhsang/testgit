@@ -11,7 +11,7 @@ function App() {
     // We'll round the loading progression to a whole number to represent the
     // percentage of the Unity Application that has loaded.
     const loadingPercentage = Math.round(loadingProgression * 100);
-
+    console.log(loadingPercentage);
     return (
         <div className="container">
             {isLoaded === false && (
